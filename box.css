@@ -1,0 +1,37 @@
+/*Add your CSS below!*/
+
+.outer-box {
+	display: solid;
+	margin-left: 5px;
+	height: 100px;
+	width: 100px;
+	border-radius: 5%;
+	border: 3px solid #AEAECC;
+}
+
+.inner-box {
+	display: solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 85px;
+	width: 85px;
+	border-radius: 5%;
+	border: 3px dashed #ffa07a;
+}
+
+body > div {
+	display: solid;
+	margin-left: 5px;
+	height: 100px;
+	width: 100px;
+	border: 3px solid violet;	
+}
+
+div div {
+	display: solid;
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 85px;
+	width: 85px;
+	border: 3px dashed red;
+}
